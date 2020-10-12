@@ -1,0 +1,69 @@
+table
+{
+   border-collapse: collapse; /* fusionner entre les cellules */
+   width: 45%;
+   border: "1";
+   background-color: seashell;
+   text-align: center;
+   margin: auto;
+   
+}
+td /* fussionner les cellules */
+{
+    border: 1.5px solid black;
+    font-weight: bold;  
+ }
+.titre 
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+.titre2
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif ;
+    
+}
+body
+{
+    background-color: rgb(163, 235, 175);
+}
+a:hover
+{
+    color: rgb(239, 247, 239);
+
+
+}
+
+td:hover
+{
+    background-color: rgb(135, 121, 146);
+    font-size:larges;
+    color: white;
+    
+}
+h1
+{
+    color: black;
+    font-size: 2em;
+    font-style: italic;
+}
+img:hover
+{
+width: 50px;
+transform : scale(2);
+}
+-class : :nth-child
+{
+background-color:read-write;
+}
+a:visited
+{
+    color: rgb(88, 9, 55);
+}
+a
+{
+    color:rgb(10, 77, 27);
+}s
