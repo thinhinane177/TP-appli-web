@@ -1,0 +1,25 @@
+body
+{
+background-color: rgb(235, 98, 56);
+}
+ h1
+ {
+     font-style: italic;
+     font-weight: 2em;
+ }
+ p
+ {
+     text-align: justify;
+ }
+ a:hover
+ {
+     color: chartreuse;
+ }
+ h1
+ {
+     text-align: start;
+     font-style: italic;
+     font-size: 1.2m;
+     text-decoration: underline;
+ }
+
