@@ -1,17 +1,20 @@
 table
 {
    border-collapse: collapse; /* fusionner entre les cellules */
-   width: 100%;
+   width: 45%;
    border: "1";
    background-color: seashell;
+   text-align: center;
+   margin: auto;
    
 }
-td /* fussionner les cellules */
+td 
 {
     border: 1.5px solid black;
-    font-weight: bold;    
-}
-.titre 
+    font-weight: bold;
+
+ }
+.titre
 {
     font-weight: bold;
     font-size: 1.5em;
@@ -20,30 +23,31 @@ td /* fussionner les cellules */
 .titre2
 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5em;
     font-family: 'Times New Roman', Times, serif ;
     
 }
 body
 {
-    background-color: rgb(6,87 , 83);
+    background-color: rgb(219, 77, 35);
 }
 a:hover
 {
     color: rgb(239, 247, 239);
 
+
 }
 
 td:hover
 {
-    background-color: rgb(10, 90, 85);
-    font-size: small;
-    color: white;
-    
-}
+    background-color: rgb(230, 221, 220);
+    font-size:larges;
+   }
 h1
 {
-    color: white;
+    color: black;
+    font-size: 2em;
+    font-style: italic;
 }
 img:hover
 {
@@ -54,7 +58,45 @@ transform : scale(2);
 {
 background-color:read-write;
 }
+a:visited
+{
+    color: rgb(88, 9, 55);
+}
+a
+{
+    color:rgb(10, 77, 27);
+}
+ .impaire 
+{
+ background-color: rgb(110, 68, 53);
+ color: white; 
+}
+tr
+{
+  background-color: rgb(237, 122, 81);
+  color: black; 
+}
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: rgb(7, 245, 43);
+    }
+}
 @media only screen and (max-width: 600px) {
     body {
-        background-color: lightblue;
+        background-color: rgb(4, 99, 18);
     }
+}
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: rgb(2, 61, 11);
+    }
+}
+@media only screen and (min-width: 1000px) {
+    body {
+        background-color: rgb(219, 77, 35);
+    }
+}
+impaire: hover 
+{
+  color: black;
+}
