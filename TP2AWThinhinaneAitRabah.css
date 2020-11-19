@@ -1,0 +1,55 @@
+body{
+background-color:rgb(255, 255, 255);
+
+}
+table{
+      
+        background-color:rgb(157, 161, 243);
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+form{ 
+  background-color: rgb(207, 196, 247);
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+      }
+p{
+   font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+  .display{
+  display : block !important;
+   }
+  
+  
+  #Error, #resultat{
+    border : 1px solid rgb(219, 115, 115);
+    padding : 15px;
+    display : none;
+  }
+  
+  #Error{
+    border: 1px solid rgb(14, 1, 9);
+    background-color : pink;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47.5%;
+  
+  }
+  
+  #resultat{
+    border : 1px solid rgb(5, 85, 15);
+    background-color : rgb(15, 109, 6);
+    margin-left: auto;
+    margin-right: auto;
+    width: 47.5%;
+    font-size: x-large;
+    font-weight: bold;  
+}
+  

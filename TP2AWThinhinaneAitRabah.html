@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="TP2AWThinhinaneAitRabah.css">
+        <script type="text/javascript" src="formulaireTP2AW.js"></script>
+        <title>MON Formulaire</title>
+    </head>
+<body>
+  
+            <form id="formAW" onsubmit="validation()" >
+              <p>saisie d'une fiche de "personne" </p>
+              <table class="tableau">
+
+       <tr>
+            <td><label for="name">Nom:</label></td>
+            <td><input type="text" name="name" id="name" minlength="5" maxlength="20"placeholder="ex:smith" class="inputAW"/></td> 
+        </tr>
+
+        <tr> 
+            <td><label for="firstName">Prénom :</label></td>
+            <td><input type="text" name="firstName" id="firstName" minlength="5" maxlength="20" placeholder="ex:Monica/Mathis" class="inputAW" /> <br></td>
+        </tr>
+        <tr>
+            <td><label for="DateofBirth">Date De Naissance</label></td> 
+            <td><input type="date" name="DateofBirth" id="DateofBirth" placeholder="JJ/MM/AAAA" class="inputAW" ></td> 
+        </tr> 
+             
+        <tr>
+            <td><label for="PostalAddress">Adresse Postal</label>:</td> 
+            <td><input type="text" name="PostalAddress" id="PostalAddress" minlength="5" maxlength="50" placeholder="ex:paris" class="inputAW"></td>
+        </tr> 
+             
+        <tr>
+             <td><label for="mail"> Adressen Mail</label> :</td>
+             <td><input type="email" name="mail" id="mail" minlength="5" maxlength="30"placeholder="aa@gmail.com" class="inputAW"></td>
+        </tr>             
+         
+        <tr>
+            <td></td>
+             <td><input type="button" name="valider" value="valider" onclick="validation()"></td> 
+        </tr>
+    </table>    
+   </form>
+         <div id="Error"> </div>
+         <div id="resultat"> </div>
+    
+</body>
+</html>
